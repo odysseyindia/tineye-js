@@ -11,6 +11,9 @@ const port        = 1314;
 const dir         = "~/webapps/tineye-js/static/photos";
 const deleted     = "~/webapps/tineye-js/static/deleted/";
 
+require('dotenv').config();
+// console.log( process.env );
+
 app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json());
@@ -34,7 +37,7 @@ app.post('/tineye',function (req, res) {
 
   var TinEye  = require('tineye-api');
   var params  = {offset: 0, limit: 10, sort: "score", order: "desc", tags: "stock"};
-  var api     = new TinEye('https://api.tineye.com/rest/', { TINEYE_PUBLIC_KEY }, { TINEYE_PRIVATE_KEY } );
+  var api     = new TinEye('https://api.tineye.com/rest/', process.env.TINEYE_PUBLIC_KEY, process.env.TINEYE_PRIVATE_KEY );
   var img     = fs.readFileSync( dir + request.file );
 
   api.searchData(img, params)

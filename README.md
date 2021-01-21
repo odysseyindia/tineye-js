@@ -1,12 +1,7 @@
-+++
-date = "2021-01-20T21:05:33+05:30"
-title = "About"
-+++
-
 <h1>About this TinEye app</h1>
 
 <p>
-TinEye is a reverse image search and compliance program <a href="https://tineye.com/">(more)</a> based on the Hugo web page generator. 
+TinEye is a reverse image search and compliance program <a href="https://tineye.com/">(more)</a> based on the Hugo web page generator and Javascript. 
 </p>
 
 ## Installation
@@ -51,4 +46,7 @@ Use the search page (the home page) to create a tineye report for each image fil
 Use the verify page to delete those images which have been claimed as a stock image. The image is actually not deleted but moved to the folder called "deleted" in the static folder.
 
 
-Courtesy [Marcin Mierzejewski](https://mrmierzejewski.com/) for the Hugo console theme.
+## references
+[Hugo](https://gohugo.io/) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+
+[Marcin Mierzejewski](https://mrmierzejewski.com/) for the Hugo console theme.
