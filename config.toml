@@ -1,0 +1,40 @@
+baseURL = "/"
+title 	= "TinEye"
+theme  = "console"
+languageCode = "en-us"
+timeout = 90000
+
+[wordCount]
+other = "{{ .WordCount }} words"
+
+[params]
+appHost = "http://localhost:1314/"
+apiUrl = 'https://api.tineye.com/rest/'
+# Sandbox keys
+tineyePrivateKey = '6mm60lsCNIB,FwOWjJqA80QZHh9BMwc-ber4u=t^'
+tineyePublicKey = 'LCkn,2K7osVwkX95K4Oy'
+testUrl = 'https://services.tineye.com/developers/img/meloncat.20c77523.jpg'
+# our keys
+myPublicKey = 'LCkn,2K7osVwkX95K4Oy'
+myPrivateKey = '6mm60lsCNIB,FwOWjJqA80QZHh9BMwc-ber4u=t^'
+
+
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "verify/"
+  url = "verify/"
+  
+  [[params.navlinks]]
+  name = "photos/"
+  url = "photos/"
+

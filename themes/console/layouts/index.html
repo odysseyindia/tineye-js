@@ -1,0 +1,99 @@
+{{ define "main" }}
+
+<h1>Search TinEye</h1>
+
+<h2>Our unprocessed images</h2>
+
+<div class="posts-list">
+
+{{ $file := readFile "images.txt" }}
+{{ $file := split $file "\n" }}
+
+<!--  $file := first 488 (after 2500 $file)  -->
+
+{{ range $file }}
+
+{{ $tineye := printf "%s%s%s" "static/photos" (substr . 0 -4) ".tineye"}}
+
+{{ if (fileExists $tineye ) }}
+
+{{ else }}
+
+  <div class="post">
+      <p>
+          <div style="width:50%">
+          <img src="photos/{{ . }}" alt="{{ . }}" >
+          <h2>{{ . }}</h2>
+          </div>
+      </p>
+  </div>    
+  <button class="button-green" onclick='tineye( "{{ . }}" )'>
+      <i class="icon-search"></i>Search tineye
+  </button>
+<hr>
+{{ end }}
+{{ end }}
+</div>
+
+{{ end }}
+{{- define "postscript" }}
+
+<script>
+
+function tineye(url){
+
+  docLoad({
+    url:    'tineye', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": url })
+  })
+  .then(
+
+    function(response) {
+      var element = document.getElementById("tineye");
+      element.innerHTML = "<p class='green'>"+response+"</p>";
+      console.table(response);
+    }, 
+
+    function(Error) {
+      var element = document.getElementById("tineye");
+      element.innerHTML = "<p class='red'>"+Error+"</p>";
+      console.log(Error);
+    }
+  );
+};
+
+function docLoad(object) {
+
+  return new Promise(function(resolve, reject) {
+
+    var host = ((object.method == 'POST')? 
+      {{- if (len (getenv "APP")) }}
+      {{ getenv "APP" }}
+      {{- else -}}
+      {{ .Site.Params.appHost }}
+      {{- end -}}
+      : "")+object.url;
+
+    var request = new XMLHttpRequest();
+    request.open(object.method || "GET", host);
+    request.setRequestHeader("Content-Type", "application/json");
+
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+    request.send(JSON.stringify(object));
+  });
+}
+
+</script>
+{{ end }}

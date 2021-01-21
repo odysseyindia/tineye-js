@@ -1,0 +1,45 @@
+{{ define "main" }}
+<h1>{{ .Title }}test</h1>
+<div class="posts-list">
+
+{{ $file := readFile "images.txt" }}
+{{ $file := split $file "\n" }}
+{{ $file := first 5 (after 0 $file) }}
+
+{{ range $file }}
+
+{{ $tineye := printf "%s%s%s" "static/photos" (substr . 0 -4) ".tineye"}}
+
+{{ if (fileExists $tineye ) }}
+
+  <div class="post">
+  	<h1>Our image</h1>
+      <p>
+          <div style="width:50%">
+          <img src="photos/{{ . }}" alt="{{ . }}" >
+          <h2>{{ . }}</h2>
+          </div>
+      </p>
+  </div>  
+
+  <h1>TinEye feedback</h1>
+  <div id="tineye" class="image-grid">
+  	{{ $tindata := readFile $tineye | transform.Unmarshal }}
+  
+  	{{ range $tindata.results }}
+{{ . }}
+  	{{ end }}
+
+
+  </div>
+
+  <button class="save" onclick='tineye( "{{ . }}" )'>
+      <i class="icon-floppy"></i>search
+  </button>
+
+  
+{{ end }}
+{{ end }}
+</div>
+
+{{ end }}

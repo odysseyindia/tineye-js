@@ -1,0 +1,126 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="posts-list">
+
+{{ $file := readFile "images.txt" }}
+{{ $file := split $file "\n" }}
+
+{{ .Scratch.Set "count" 0 }}
+
+Number of images: {{ len $file }}<br>
+
+{{ range $file }}
+
+{{ $tineye := printf "%s%s%s" "static/photos" (substr . 0 -4) ".tineye"}}
+
+{{ if (fileExists $tineye ) }}
+
+{{ $tindata := readFile $tineye | transform.Unmarshal }}
+
+{{ if gt $tindata.stats.total_stock 0 }}
+{{ $t := add ($.Scratch.Get "count") 1 }}
+{{ $.Scratch.Set "count" $t }}
+
+Stock alert: {{ $t }}<br>
+
+  <div class="post">
+  	<h1>Our image</h1>
+      <p>
+          <div style="width:50%">
+          <img src="../photos{{ . }}" alt="{{ . }}" >
+          <h2>{{ . }}</h2>
+          </div>
+      </p>
+ 
+
+  <h1>TinEye feedback</h1>
+  <h3>{{ $tindata.stats.total_stock }} stock images</h3>
+
+  <div id="tineye" class="image-grid">
+  	{{ range $i,$v := $tindata.results.matches }}
+  	{{ range $v.backlinks }}
+  	<div>
+		
+    {{ if ne .url "" }} 
+		<a href="{{ .url }}" target="_blank"><img src="{{ .url }}" alt="verify" ></a>
+		<h2>{{add $i 1}}: {{ .url }}</h2>
+    {{ else }}
+    <a href="{{ .backlink }}" target="_blank"><img src="{{ .backlink }}" alt="backlink"></a>
+    <h2>{{add $i 1}}: {{ .backlink }}</h2>
+    {{ end }}
+	</div>
+  	{{ end }}
+  	{{ end }}
+  </div>
+
+  <button class="button-red" onclick='tineye( "{{ . }}" )'>
+      <i class="icon-bin"></i>Delete
+  </button>
+ </div>  
+{{ end }}
+{{ end }}
+{{ end }}
+
+
+{{ end }}
+{{- define "postscript" }}
+
+<script>
+function tineye(url){
+
+  docLoad({
+    url:    'delete', 
+    method: 'POST',
+    data:   JSON.stringify({ 
+      "file": url })
+  })
+  .then(
+
+    function(response) {
+      var element = document.getElementById("tineye");
+      element.innerHTML = "<p class='green'>"+response+"</p>";
+      console.table(response);
+    }, 
+
+    function(Error) {
+      var element = document.getElementById("tineye");
+      element.innerHTML = "<p class='red'>"+Error+"</p>";
+      console.log(Error);
+    }
+  );
+};
+
+function docLoad(object) {
+
+  return new Promise(function(resolve, reject) {
+
+    var host = ((object.method == 'POST')? 
+      {{- if (len (getenv "APP")) }}
+      {{ getenv "APP" }}
+      {{- else -}}
+      {{ .Site.Params.appHost }}
+      {{- end -}}
+      : "")+object.url;
+
+    var request = new XMLHttpRequest();
+    request.open(object.method || "GET", host);
+    request.setRequestHeader("Content-Type", "application/json");
+
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Document requested did not load successfully; error code:' + request.statusText));
+      }
+    };
+
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+    request.send(JSON.stringify(object));
+  });
+}
+
+
+</script>
+{{ end }}

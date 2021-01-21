@@ -1,0 +1,6 @@
+/public
+/node_modules
+/static/photos/*
+/.env
+# Local Netlify folder
+.netlify

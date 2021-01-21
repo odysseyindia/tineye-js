@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<h1>List of images on file</h1>
+
+{{ $file := readFile "images.txt" }}
+{{ $file := split $file "\n" }}
+
+{{ range $file }}
+
+  <div class="post">
+     <h2>{{ . }}</h2>
+  </div> 
+{{ end }}
+{{ end }}
