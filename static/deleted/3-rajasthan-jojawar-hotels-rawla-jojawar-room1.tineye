@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1611121050.94'
+  query_time: '0.72'
+  total_backlinks: 2
+  total_collection: 0
+  total_results: 2
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/ET1B9G/bedroom-in-rawla-jojwar-heritage-hotel-marwar-rajasthan-india-pr746b-ET1B9G.jpg
+          crawl_date: '2019-02-12'
+          backlink: >-
+            https://www.alamy.com/stock-photo-bedroom-in-rawla-jojwar-heritage-hotel-marwar-rajasthan-india-pr746b-83624060.html
+      format: JPEG
+      filesize: 156396
+      overlay: >-
+        overlay/a3d942100861eb3472097fe9a6b61b7a729371ae/e04eac4b91f51115da7be0f27a30973c70f76731c01d25c225e143effde3141c?m21=-0.00153686&m22=1.14719&m23=-0.863129&m11=1.14719&m13=-37.5554&m12=0.00153686
+      height: 766
+      width: 1300
+      score: 37.908
+      image_url: >-
+        https://img.tineye.com/result/e04eac4b91f51115da7be0f27a30973c70f76731c01d25c225e143effde3141c
+      query_hash: a3d942100861eb3472097fe9a6b61b7a729371ae
+      tags:
+        - stock
+      size: 995800

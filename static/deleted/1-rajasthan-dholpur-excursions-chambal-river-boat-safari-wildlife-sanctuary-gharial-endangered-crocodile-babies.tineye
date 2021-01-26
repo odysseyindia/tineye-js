@@ -1,0 +1,35 @@
+stats:
+  timestamp: '1611148144.87'
+  query_time: '3.49'
+  total_backlinks: 2742
+  total_collection: 0
+  total_results: 988
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: imagesource.com
+      backlinks:
+        - url: >-
+            https://blog.imagesource.com/wp-content/uploads/2013/11/93_Udayan-Rao-Pawar-India-Mother-little-headful-600x399.jpg
+          crawl_date: '2017-04-22'
+          backlink: https://blog.imagesource.com/wildlife-photographer-winners/
+        - url: >-
+            http://www.imagesource.com/blog/wp-content/uploads/2013/11/93_Udayan-Rao-Pawar-India-Mother-little-headful-600x399.jpg
+          crawl_date: '2013-12-12'
+          backlink: http://www.imagesource.com/blog/wildlife-photographer-winners/
+      format: JPEG
+      filesize: 80097
+      overlay: >-
+        overlay/735f468bad6ac55a9eebd827875eb32683bc702a/011009d85f837f48a2fe9e2830d9f48a267a0f20c2fba09c0379f3717692ac1a?m21=0.0258&m22=1.51667&m23=-110.361&m11=1.51667&m13=-121.18&m12=-0.0258
+      height: 399
+      width: 600
+      score: 45.098
+      image_url: >-
+        https://img.tineye.com/result/011009d85f837f48a2fe9e2830d9f48a267a0f20c2fba09c0379f3717692ac1a
+      query_hash: 735f468bad6ac55a9eebd827875eb32683bc702a
+      tags:
+        - stock
+      size: 239400

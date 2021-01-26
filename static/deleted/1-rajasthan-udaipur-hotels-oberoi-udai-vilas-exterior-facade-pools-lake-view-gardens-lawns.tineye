@@ -1,0 +1,50 @@
+stats:
+  timestamp: '1611160359.95'
+  query_time: '7.75'
+  total_backlinks: 10577
+  total_collection: 4
+  total_results: 2948
+  total_stock: 2
+  total_filtered_results: 2
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2012-06-07'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/sunrise-over-the-deluxe-rooms-with-semi-high-res-stock-photography/128115553
+      format: JPEG
+      filesize: 172531
+      overlay: >-
+        overlay/e510265153d05402de84c8087d9c464b93804d96/ca16e59f2c5946e8258327a4e1639dff2d21bb629cad172cd7815e72cbf2a179?m21=0.000106434&m22=0.887172&m23=0.0742208&m11=0.887172&m13=0.167563&m12=-0.000106434
+      height: 338
+      width: 507
+      score: 62.745
+      image_url: >-
+        https://img.tineye.com/result/ca16e59f2c5946e8258327a4e1639dff2d21bb629cad172cd7815e72cbf2a179
+      query_hash: e510265153d05402de84c8087d9c464b93804d96
+      tags:
+        - stock
+      size: 171366
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-12'
+          backlink: >-
+            http://www.shutterstock.com/pic-1248805000/stock-photo-heritage-view-with-blue-sky.html
+      format: jpeg
+      filesize: 254507
+      overlay: >-
+        overlay/e510265153d05402de84c8087d9c464b93804d96/0dff6a5a3a1db5534ffc28ab8287b83533bd71086da82d106d9a8880d69c733a?m21=-0.00104414&m22=1.06636&m23=0.422846&m11=1.06636&m13=0.579812&m12=0.00104414
+      height: 320
+      width: 450
+      score: 56.863
+      image_url: >-
+        https://img.tineye.com/result/0dff6a5a3a1db5534ffc28ab8287b83533bd71086da82d106d9a8880d69c733a
+      query_hash: e510265153d05402de84c8087d9c464b93804d96
+      tags:
+        - stock
+      size: 144000

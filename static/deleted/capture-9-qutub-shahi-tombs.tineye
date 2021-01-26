@@ -1,0 +1,137 @@
+stats:
+  timestamp: '1611165109.09'
+  query_time: '7.37'
+  total_backlinks: 27
+  total_collection: 0
+  total_results: 13
+  total_stock: 4
+  total_filtered_results: 4
+code: 200
+messages: []
+results:
+  matches:
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/b/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2019-08-02'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-bidar-fort-bc-india-image56583186
+        - url: >-
+            https://thumbs.dreamstime.com/b/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2019-09-30'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-qutub-shahi-tombs-hyderabad-arch-historic-building-india-image59790725
+        - url: >-
+            https://thumbs.dreamstime.com/b/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2019-08-22'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-tall-buddha-statue-amaravati-india-tall-buddha-statue-andhra-pradesh-state-new-capital-amaravati-india-image97911858
+        - url: >-
+            https://thumbs.dreamstime.com/b/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2019-07-30'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-panorama-hampi-view-virupaksha-temple-located-ruins-ancient-city-vijayanagar-india-image52705621
+        - url: >-
+            https://thumbs.dreamstime.com/b/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2019-09-30'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-qutub-shahi-tombs-hyderabad-arch-historic-building-india-image59790326
+      format: JPEG
+      filesize: 96793
+      overlay: >-
+        overlay/f1959d4e7eb57d106a4aecd7aecee5afb39a12ec/e5fdc7e2d5536590540ae04a1351fb36dcda8068d31ffe513d129fcc693b4856?m21=-0.000958837&m22=1.3772&m23=-55.0957&m11=1.3772&m13=-7.70928&m12=0.000958837
+      height: 450
+      width: 800
+      score: 35.294
+      image_url: >-
+        https://img.tineye.com/result/e5fdc7e2d5536590540ae04a1351fb36dcda8068d31ffe513d129fcc693b4856
+      query_hash: f1959d4e7eb57d106a4aecd7aecee5afb39a12ec
+      tags:
+        - stock
+      size: 360000
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/t/qutubshahi-graven-hyderabad-30772489.jpg
+          crawl_date: '2017-06-12'
+          backlink: https://nl.dreamstime.com/photos-images/graven.html
+        - url: >-
+            https://thumbs.dreamstime.com/t/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2017-05-05'
+          backlink: https://www.dreamstime.com/photos-images/tombs.html
+        - url: >-
+            http://thumbs.dreamstime.com/t/t%C3%BAmulos-de-qutub-shahi-hyderabad-30772489.jpg
+          crawl_date: '2015-12-28'
+          backlink: http://pt.dreamstime.com/photos-images/t%C3%BAmulos.html
+        - url: >-
+            http://thumbs.dreamstime.com/t/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2015-11-24'
+          backlink: http://www.dreamstime.com/photos-images/qutub.html
+        - url: >-
+            http://thumbs.dreamstime.com/t/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2016-06-03'
+          backlink: http://www.dreamstime.com/photos-images/andhra.html
+        - url: >-
+            http://thumbs.dreamstime.com/t/qutubshahi-graven-hyderabad-30772489.jpg
+          crawl_date: '2015-11-20'
+          backlink: http://nl.dreamstime.com/photos-images/graven.html
+        - url: >-
+            https://thumbs.dreamstime.com/t/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2016-11-24'
+          backlink: https://www.dreamstime.com/photos-images/rulers.html
+        - url: >-
+            http://thumbs.dreamstime.com/t/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2015-12-28'
+          backlink: http://www.dreamstime.com/photos-images/tombs.html
+      format: JPEG
+      filesize: 20582
+      overlay: >-
+        overlay/f1959d4e7eb57d106a4aecd7aecee5afb39a12ec/ec893939b5f4cfb7f37354c50bf22a4441bbeb9333534d252bc69456c57c4ea2?m21=-0.00175037&m22=2.58471&m23=-55.4874&m11=2.58471&m13=-7.96266&m12=0.00175037
+      height: 160
+      width: 284
+      score: 34.641
+      image_url: >-
+        https://img.tineye.com/result/ec893939b5f4cfb7f37354c50bf22a4441bbeb9333534d252bc69456c57c4ea2
+      query_hash: f1959d4e7eb57d106a4aecd7aecee5afb39a12ec
+      tags:
+        - stock
+      size: 45440
+    - domain: dreamstime.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-09-04'
+          backlink: >-
+            http://www.dreamstime.com/royalty-free-stock-images-qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-image30772489
+      format: JPEG
+      filesize: 90000
+      overlay: >-
+        overlay/f1959d4e7eb57d106a4aecd7aecee5afb39a12ec/14a85604269932507cd8fd703d36c206b401fabb4b4f277180140ebb506cc068?m21=-0.000604402&m22=1.83465&m23=-54.8942&m11=1.83465&m13=-7.18827&m12=0.000604402
+      height: 225
+      width: 400
+      score: 28.758
+      image_url: >-
+        https://img.tineye.com/result/14a85604269932507cd8fd703d36c206b401fabb4b4f277180140ebb506cc068
+      query_hash: f1959d4e7eb57d106a4aecd7aecee5afb39a12ec
+      tags:
+        - stock
+      size: 90000
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            http://thumbs.dreamstime.com/m/qutub-shahi-tombs-hyderabad-seven-rulers-ibrahim-bagh-located-close-to-famous-golkonda-fort-30772489.jpg
+          crawl_date: '2013-09-19'
+          backlink: http://www.dreamstime.com/photos-images/qutub.html
+      format: JPEG
+      filesize: 7884
+      overlay: >-
+        overlay/f1959d4e7eb57d106a4aecd7aecee5afb39a12ec/7bc9c13999bd5921da33194acc2bb0c2be587136acce55ea8fc7cb7e57adce70?m21=-0.00644741&m22=6.12832&m23=-57.4827&m11=6.12832&m13=-8.56889&m12=0.00644741
+      height: 68
+      width: 120
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/7bc9c13999bd5921da33194acc2bb0c2be587136acce55ea8fc7cb7e57adce70
+      query_hash: f1959d4e7eb57d106a4aecd7aecee5afb39a12ec
+      tags:
+        - stock
+      size: 8160

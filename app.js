@@ -8,11 +8,12 @@ const yaml 			  = require('js-yaml');
 const readline    = require('readline');
 var   app 			  = express(); 
 const port        = 1314;
-const dir         = "~/webapps/tineye-js/static/photos";
-const deleted     = "~/webapps/tineye-js/static/deleted/";
 
 require('dotenv').config();
 // console.log( process.env );
+
+const dir         = process.env.TINEYE_PATH+"/tineye-js";
+const deleted     = process.env.TINEYE_PATH+"/tineye-js/static/deleted/";
 
 app.use(express.json());
 app.use(cors());
@@ -29,7 +30,7 @@ app.post('/tineye',function (req, res) {
 
   var request = JSON.parse(req.body.data);
   var reqfile = request.file;
-  var file    = dir+reqfile.substring(0,reqfile.length-4) + ".tineye";
+  var file    = dir+"/"+reqfile.substring(0,reqfile.length-4) + ".tineye";
   var output  = {};
  
   // console.log("Writing data "+reqfile);
@@ -38,7 +39,7 @@ app.post('/tineye',function (req, res) {
   var TinEye  = require('tineye-api');
   var params  = {offset: 0, limit: 10, sort: "score", order: "desc", tags: "stock"};
   var api     = new TinEye('https://api.tineye.com/rest/', process.env.TINEYE_PUBLIC_KEY, process.env.TINEYE_PRIVATE_KEY );
-  var img     = fs.readFileSync( dir + request.file );
+  var img     = fs.readFileSync( dir + "/" + request.file );
 
   api.searchData(img, params)
   .then(
@@ -66,14 +67,14 @@ app.post('/tineye',function (req, res) {
       console.log(error);
     }
   )
-  console.log("Finished "+reqfile);
+  console.log("TinEye report created for ",reqfile);
   res.end();
 });
 
 app.post('/delete',function (req, res) {
 
   var request  = JSON.parse(req.body.data);
-  var from     = dir + request.file;
+  var from     = dir +"/"+ request.file;
   var tofile   = request.file ;
   var to       = deleted + tofile.split("/").pop();
   var tinfile  = from.substring(0,from.length-4) + ".tineye";
@@ -86,6 +87,46 @@ app.post('/delete',function (req, res) {
       console.error(err);
     })
   })
+});
+
+
+app.post('/falsepos',function (req, res) {
+
+  var request  = JSON.parse(req.body.data);
+  var from     = dir+request.file;
+  var file     = from.substring(0,from.length-4) + ".tineye";
+
+  try {
+   var fileContents = fs.readFileSync(file, 'utf8', (err) => {       
+     if (err) throw err; }) 
+  } 
+  catch (error) {
+    console.log('Route falsepos reading: ' + error.message);
+  } 
+
+  try {
+    // var data = yaml.loadAll(fileContents);
+    // data[0].stats.positive = false;
+
+    var data = fileContents.toString().split("\n");
+    var lineNumber = 8;
+    data.splice(lineNumber, 0, "  positive: false");
+    var output = data.join("\n");
+
+    //var output = yaml.dump(data, {
+    //  'indent': 0,
+    //  'noArrayIndent': true,
+    //  'lineWidth': -1,
+    //});
+
+    fs.writeFileSync(file, output, 'utf8', (err) => {       
+      if (err) throw err;  }) 
+      console.log('False positive added: ',file);
+  } 
+  catch (error) {
+    console.log('Route falsepos writing: ' + error.message);
+  } 
+  res.end();
 });
 
 

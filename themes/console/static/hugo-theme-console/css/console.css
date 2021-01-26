@@ -279,7 +279,9 @@ figure {
     }
 }
 
-
+[role=button] {
+  cursor: pointer;
+}
 
 .button-red { 
     background: red;
@@ -292,7 +294,9 @@ figure {
     color: white;
     padding: 10px 20px 10px 20px;
 }
-
+.button-red:hover, .button-green:hover { 
+    cursor: pointer;
+}
 
 .green { color: darkgreen; }
 .red { color: red; }

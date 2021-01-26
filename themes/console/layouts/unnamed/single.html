@@ -1,0 +1,18 @@
+{{- define "main" }}
+
+<h1>List of possible unnamed images</h1>
+
+{{- $data := partial "findjpg.html" . }}
+{{ .Scratch.Set "counter" 0 }}
+
+{{- range $data }}
+	{{- if (or (gt (findRE "[0-9]+" . ) 3) (in . "img" )) }}
+
+		{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+		<div class="post">
+		{{ $.Scratch.Get "counter" }}. <a href="/{{ substr . 7 }}" target="_blank">{{ substr . 7 }}</a>
+		</div>
+	{{- end }}
+{{- end -}}
+
+{{- end }}

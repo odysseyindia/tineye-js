@@ -1,0 +1,232 @@
+stats:
+  timestamp: '1610997204.11'
+  query_time: '4.76'
+  total_backlinks: 710
+  total_collection: 19
+  total_results: 426
+  total_stock: 168
+  total_filtered_results: 168
+code: 200
+messages: []
+results:
+  matches:
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-04-13'
+          backlink: https://stock.adobe.com/9548723
+      format: jpeg
+      filesize: 159681
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/2e4f195ab04d8e3784e4cfbcd7af93941e6ba2f5a69d00d8061f8e3120c81e9e?m21=0.0215702&m22=0.973191&m23=-28.9976&m11=0.973191&m13=24.6946&m12=-0.0215702
+      height: 375
+      width: 500
+      score: 34.641
+      image_url: >-
+        https://img.tineye.com/result/2e4f195ab04d8e3784e4cfbcd7af93941e6ba2f5a69d00d8061f8e3120c81e9e
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 187500
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-05-13'
+          backlink: >-
+            http://www.shutterstock.com/pic-1385909261/stock-photo-mysore-karnataka-india-mesmerizing-sculpture-art-and-architecture-created-in.html
+      format: jpeg
+      filesize: 311092
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/4e620ee9e7f8829efab741a0f79dacf966b05f94ac43117530d7315b79fb34c4?m21=0.0143781&m22=0.966289&m23=-149.955&m11=0.966289&m13=55.1048&m12=-0.0143781
+      height: 470
+      width: 300
+      score: 32.026
+      image_url: >-
+        https://img.tineye.com/result/4e620ee9e7f8829efab741a0f79dacf966b05f94ac43117530d7315b79fb34c4
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 141000
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-23'
+          backlink: >-
+            http://www.shutterstock.com/pic-1270243633/stock-photo-the-buddha-temple-namdroling-monastery-karnataka-india.html
+      format: jpeg
+      filesize: 293041
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/babd523f89508eba6d86eeaa015ae96d959051deb9aac6421cca205b9f2f7baf?m21=0.00506207&m22=1.04678&m23=-23.3199&m11=1.04678&m13=-4.58756&m12=-0.00506207
+      height: 323
+      width: 450
+      score: 31.373
+      image_url: >-
+        https://img.tineye.com/result/babd523f89508eba6d86eeaa015ae96d959051deb9aac6421cca205b9f2f7baf
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 145350
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/lord-buddha-at-golden-temple-in-bylakuppe-karnataka-india-picture-id981125462
+          crawl_date: '2020-09-30'
+          backlink: >-
+            https://www.istockphoto.com/photo/lord-buddha-at-golden-temple-in-bylakuppe-karnataka-india-gm981125462-266492293
+      format: JPEG
+      filesize: 65329
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/4170908b496b05465dc430b2b390b9e7443ca6ae7c8e800f15e6e9a4ea379ee5?m21=0.0152109&m22=0.680004&m23=-49.4631&m11=0.680004&m13=110.17&m12=-0.0152109
+      height: 3404
+      width: 2235
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/4170908b496b05465dc430b2b390b9e7443ca6ae7c8e800f15e6e9a4ea379ee5
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 7607940
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/lord-buddha-at-golden-temple-in-bylakuppe-karnataka-india-picture-id981125462
+          crawl_date: '2020-09-30'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/lord-buddha-at-golden-temple-in-bylakuppe-karnataka-royalty-free-image/981125462
+      format: JPEG
+      filesize: 65329
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/4170908b496b05465dc430b2b390b9e7443ca6ae7c8e800f15e6e9a4ea379ee5?m21=0.0152109&m22=0.680004&m23=-49.4631&m11=0.680004&m13=110.17&m12=-0.0152109
+      height: 3404
+      width: 2235
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/4170908b496b05465dc430b2b390b9e7443ca6ae7c8e800f15e6e9a4ea379ee5
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 7607940
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2017-05-03'
+          backlink: https://eu.fotolia.com/search?similar=130166644
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2016-12-03'
+          backlink: https://en.fotolia.com/search?similar=111537924
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2016-12-03'
+          backlink: https://pl.fotolia.com/search?similar=111537924
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2017-01-04'
+          backlink: https://pt.fotolia.com/search?similar=111537924
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://fr.fotolia.com/search?similar=162303984
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2016-11-18'
+          backlink: https://fr.fotolia.com/search?similar=111537924
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2017-01-09'
+          backlink: https://en.fotolia.com/search?similar=102525107
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/17/78/47/240_F_117784719_biqWyTksmIhUDOV2MQUdcYXnQXRNDi2f.jpg
+          crawl_date: '2016-12-03'
+          backlink: https://it.fotolia.com/search?similar=111537924
+      format: JPEG
+      filesize: 87547
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/c23d0f5d9e8a42ea17c6949a6b7071c61d02e25a2a159155aa3ed3b37e2715e2?m21=0.0243607&m22=1.8071&m23=-87.9733&m11=1.8071&m13=-158.808&m12=-0.0243607
+      height: 240
+      width: 406
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/c23d0f5d9e8a42ea17c6949a6b7071c61d02e25a2a159155aa3ed3b37e2715e2
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 97440
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/z/buddha-statues-tibetan-monastery-india-85544664.jpg
+          crawl_date: '2019-04-14'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-buddha-statues-tibetan-monastery-india-image85544664
+      format: JPEG
+      filesize: 382103
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/7184f0993a2e46ab498d6cf6d929f5679fd14e42662b74a55855df6ce9b79882?m21=0.00910301&m22=0.93137&m23=-38.5847&m11=0.93137&m13=81.6187&m12=-0.00910301
+      height: 1300
+      width: 1173
+      score: 26.144
+      image_url: >-
+        https://img.tineye.com/result/7184f0993a2e46ab498d6cf6d929f5679fd14e42662b74a55855df6ce9b79882
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 1524900
+    - domain: depositphotos.com
+      backlinks:
+        - url: >-
+            https://st2.depositphotos.com/3355227/6484/i/950/depositphotos_64847769-stock-photo-buddhist-trinity.jpg
+          crawl_date: '2020-04-14'
+          backlink: https://depositphotos.com/64847769/stock-photo-buddhist-trinity.html
+      format: JPEG
+      filesize: 187399
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/ae369957d85222130aad3ef8822f1c34287fb8a605743b0d6d4b1896532b9c8d?m21=0.0196565&m22=1.44863&m23=-88.0934&m11=1.44863&m13=-159.807&m12=-0.0196565
+      height: 605
+      width: 1024
+      score: 26.144
+      image_url: >-
+        https://img.tineye.com/result/ae369957d85222130aad3ef8822f1c34287fb8a605743b0d6d4b1896532b9c8d
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 619520
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2020-02-10'
+          backlink: https://stock.adobe.com/321190891
+      format: jpeg
+      filesize: 142532
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/c01eef428a334b9e3474bff38231be68be9984b223f89adbec2dfd17b0e676a0?m21=0.0235286&m22=0.869359&m23=-29.788&m11=0.869359&m13=86.6547&m12=-0.0235286
+      height: 500
+      width: 332
+      score: 24.837
+      image_url: >-
+        https://img.tineye.com/result/c01eef428a334b9e3474bff38231be68be9984b223f89adbec2dfd17b0e676a0
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 166000
+    - domain: dreamstime.com
+      backlinks:
+        - url: >-
+            https://thumbs.dreamstime.com/b/buddhist-trinity-monastery-altar-deities-padmasambhava-buddha-maitreya-42435761.jpg
+          crawl_date: '2019-08-02'
+          backlink: >-
+            https://www.dreamstime.com/stock-photo-geisha-red-kimono-sakura-attractive-asian-woman-wearing-standing-blossoming-garden-close-up-creative-portrait-outdoor-image89299760
+      format: JPEG
+      filesize: 174512
+      overlay: >-
+        overlay/1bab8fa27c2610e3545975696ad3ab3ac19fbf01/f1a3087ff5cc661dfa4ffa543d20218776678e87fc5d2538a9295f581b841054?m21=0.0235072&m22=1.44787&m23=-89.2342&m11=1.44787&m13=-157.715&m12=-0.0235072
+      height: 473
+      width: 800
+      score: 24.183
+      image_url: >-
+        https://img.tineye.com/result/f1a3087ff5cc661dfa4ffa543d20218776678e87fc5d2538a9295f581b841054
+      query_hash: 1bab8fa27c2610e3545975696ad3ab3ac19fbf01
+      tags:
+        - stock
+      size: 378400

@@ -1,0 +1,56 @@
+stats:
+  timestamp: '1610996853.39'
+  query_time: '2.30'
+  total_backlinks: 8
+  total_collection: 0
+  total_results: 5
+  total_stock: 2
+  total_filtered_results: 2
+code: 200
+messages: []
+results:
+  matches:
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-11-12'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={9C97AA92-E7FA-4A45-8F55-4B6531A5CED9}
+      format: JPEG
+      filesize: 323200
+      overlay: >-
+        overlay/6db9ca6dd69adec379d8f76d6191833d0008f6e6/92d6e223fe429c5ecc4d38a4ab4fb4a10c57a2fe1e1f407f33aea71327f4e333?m21=0.00187982&m22=1.04415&m23=-0.57826&m11=1.04415&m13=0.227046&m12=-0.00187982
+      height: 505
+      width: 640
+      score: 50.327
+      image_url: >-
+        https://img.tineye.com/result/92d6e223fe429c5ecc4d38a4ab4fb4a10c57a2fe1e1f407f33aea71327f4e333
+      query_hash: 6db9ca6dd69adec379d8f76d6191833d0008f6e6
+      tags:
+        - stock
+      size: 323200
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/AC6XHF/openbilled-storks-in-karnataka-AC6XHF.jpg
+          crawl_date: '2019-02-09'
+          backlink: >-
+            https://www.alamy.com/openbilled-storks-in-karnataka-image7463326.html
+        - url: >-
+            https://c8.alamy.com/comp/AC6XHF/openbilled-storks-in-karnataka-AC6XHF.jpg
+          crawl_date: '2019-01-06'
+          backlink: >-
+            https://www.alamy.com/stock-photo-openbilled-storks-in-karnataka-7463326.html
+      format: JPEG
+      filesize: 338838
+      overlay: >-
+        overlay/6db9ca6dd69adec379d8f76d6191833d0008f6e6/1d8d218854bfd9c19e9871fddf1d113a709bcc494642922ee06e53c37adc9e95?m21=0.000941107&m22=1.09209&m23=0.0595362&m11=1.09209&m13=-0.0260909&m12=-0.000941107
+      height: 1074
+      width: 1300
+      score: 43.137
+      image_url: >-
+        https://img.tineye.com/result/1d8d218854bfd9c19e9871fddf1d113a709bcc494642922ee06e53c37adc9e95
+      query_hash: 6db9ca6dd69adec379d8f76d6191833d0008f6e6
+      tags:
+        - stock
+      size: 1396200

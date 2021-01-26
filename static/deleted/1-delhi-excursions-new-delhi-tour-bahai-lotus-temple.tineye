@@ -1,0 +1,33 @@
+stats:
+  timestamp: '1611651139.19'
+  query_time: '1.01'
+  total_backlinks: 229
+  total_collection: 3
+  total_results: 81
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: foter.com
+      backlinks:
+        - url: http://farm1.static.flickr.com/6/7784003_b58628ddeb_m.jpg
+          crawl_date: '2013-09-19'
+          backlink: http://foter.com/bahai/
+        - url: http://farm1.static.flickr.com/6/7784003_b58628ddeb_m.jpg
+          crawl_date: '2013-07-13'
+          backlink: http://foter.com/BAHA/
+      format: JPEG
+      filesize: 13486
+      overlay: >-
+        overlay/314d894c35295e0aa9fac60161af1eec59c4e2c0/02038baaacd944b366cc6a2cc53232a4f81529ead72b714b26e5dc7c6ff38825?m21=0.000600179&m22=1.66496&m23=0.0738727&m11=1.66496&m13=0.196202&m12=-0.000600179
+      height: 180
+      width: 240
+      score: 74.51
+      image_url: >-
+        https://img.tineye.com/result/02038baaacd944b366cc6a2cc53232a4f81529ead72b714b26e5dc7c6ff38825
+      query_hash: 314d894c35295e0aa9fac60161af1eec59c4e2c0
+      tags:
+        - stock
+      size: 43200

@@ -1,0 +1,232 @@
+stats:
+  timestamp: '1611066235.70'
+  query_time: '5.04'
+  total_backlinks: 128
+  total_collection: 0
+  total_results: 47
+  total_stock: 14
+  total_filtered_results: 14
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/tibetan-singing-bowl-picture-id850883992?k=6&m=850883992&s=170667a&w=0&h=wuW3W6wT4Nxa0CkeOYX_hYuJzbCanubKownR5Xxzipg=
+          crawl_date: '2020-12-21'
+          backlink: >-
+            https://www.istockphoto.com/photo/tibetan-singing-bowl-gm850883992-139676249
+      format: JPEG
+      filesize: 31487
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/99f7d7a3754c0072a461f7b3c3b7d513a4d43941afda93c3f15902c32882b952?m21=-0.000136489&m22=0.999815&m23=0.0379204&m11=0.999815&m13=0.0141568&m12=0.000136489
+      height: 4245
+      width: 6361
+      score: 94.771
+      image_url: >-
+        https://img.tineye.com/result/99f7d7a3754c0072a461f7b3c3b7d513a4d43941afda93c3f15902c32882b952
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 27002445
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/tibetan-singing-bowl-picture-id850883992?k=6&m=850883992&s=170667a&w=0&h=wuW3W6wT4Nxa0CkeOYX_hYuJzbCanubKownR5Xxzipg=
+          crawl_date: '2020-12-21'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/tibetan-singing-bowl-royalty-free-image/850883992
+      format: JPEG
+      filesize: 31487
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/99f7d7a3754c0072a461f7b3c3b7d513a4d43941afda93c3f15902c32882b952?m21=-0.000136489&m22=0.999815&m23=0.0379204&m11=0.999815&m13=0.0141568&m12=0.000136489
+      height: 4245
+      width: 6361
+      score: 94.771
+      image_url: >-
+        https://img.tineye.com/result/99f7d7a3754c0072a461f7b3c3b7d513a4d43941afda93c3f15902c32882b952
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 27002445
+    - domain: 123rf.com
+      backlinks:
+        - url: >-
+            https://us.123rf.com/450wm/microgen/microgen1705/microgen170500041/77451497-tibetan-singing-bowl.jpg?ver=6
+          crawl_date: '2019-03-07'
+          backlink: https://www.123rf.com/photo_77451497_tibetan-singing-bowl.html
+      format: JPEG
+      filesize: 18828
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/fd7b5163f630ed73b7b6ab80966c0a58c931311bce91a6986506676305edde73?m21=-0.000424762&m22=0.999676&m23=0.100347&m11=0.999676&m13=-0.0182711&m12=0.000424762
+      height: 300
+      width: 450
+      score: 94.771
+      image_url: >-
+        https://img.tineye.com/result/fd7b5163f630ed73b7b6ab80966c0a58c931311bce91a6986506676305edde73
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 135000
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/240_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://fr.fotolia.com/tag/bouddhiste?nca=851
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/240_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://fr.fotolia.com/tag/bouddhiste?filters%5Bhas_releases%5D=true
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/240_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://it.fotolia.com/tag/buddismo?filters%5Bhas_releases%5D=true
+      format: JPEG
+      filesize: 25923
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/ca01bf05cec35d78f2422ce84d61f866b86df57be45d995b850d316bfffbd065?m21=-0.0003733&m22=1.2497&m23=0.036959&m11=1.2497&m13=-0.00272393&m12=0.0003733
+      height: 240
+      width: 360
+      score: 92.81
+      image_url: >-
+        https://img.tineye.com/result/ca01bf05cec35d78f2422ce84d61f866b86df57be45d995b850d316bfffbd065
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 86400
+    - domain: mauritius-images.com
+      backlinks:
+        - url: >-
+            https://img.mauritius-images.com/dsf/preview_watermarked/ME-PI-9909761/save_as_name/mauritius%20images%20-%2009924592.jpg
+          crawl_date: '2020-05-13'
+          backlink: >-
+            https://www.mauritius-images.com/en/asset/ME-PI-9909761_mauritius_images_bildnummer_09924592_midsection-of-therapist-playing-rin-gong-by-young-woman-at-spa
+      format: JPEG
+      filesize: 25696
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/b60abbbf1c9a77a670b433a6319dca50f8a8a1ff360f91f88c4226f2b189f661?m21=-0.000646561&m22=0.999778&m23=0.154311&m11=0.999778&m13=-0.0120946&m12=0.000646561
+      height: 400
+      width: 600
+      score: 91.503
+      image_url: >-
+        https://img.tineye.com/result/b60abbbf1c9a77a670b433a6319dca50f8a8a1ff360f91f88c4226f2b189f661
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 240000
+    - domain: fotolia.com
+      backlinks:
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/500_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://fr.fotolia.com/tag/bouddhiste?nca=851
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/500_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://fr.fotolia.com/tag/bouddhiste?filters%5Bhas_releases%5D=true
+        - url: >-
+            https://t4.ftcdn.net/jpg/01/45/11/13/500_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2017-07-12'
+          backlink: https://it.fotolia.com/tag/buddismo?filters%5Bhas_releases%5D=true
+      format: JPEG
+      filesize: 63207
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/731965529dd5c1c71fed3ac412617517669274a7c3dcdcf15368506cee8161c8?m21=-0.000500109&m22=1.00045&m23=0.103388&m11=1.00045&m13=0.432425&m12=0.000500109
+      height: 334
+      width: 500
+      score: 82.353
+      image_url: >-
+        https://img.tineye.com/result/731965529dd5c1c71fed3ac412617517669274a7c3dcdcf15368506cee8161c8
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 167000
+    - domain: mediabakery.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-07-09'
+          backlink: >-
+            https://www.mediabakery.com/SPY1032479-tibetan-singing-bowl-therapy.html
+      format: jpeg
+      filesize: 14835
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/1bcb9204f4d3eb031bb7cff1c3539b52a3dd3cce31315236de47a001d8fe885b?m21=-0.000859625&m22=1.38407&m23=0.00417505&m11=1.38407&m13=0.247649&m12=0.000859625
+      height: 217
+      width: 325
+      score: 81.699
+      image_url: >-
+        https://img.tineye.com/result/1bcb9204f4d3eb031bb7cff1c3539b52a3dd3cce31315236de47a001d8fe885b
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 70525
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/midsection-of-therapist-playing-rin-gong-by-young-woman-at-spa-picture-id1057586286
+          crawl_date: '2018-10-25'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/midsection-of-therapist-playing-rin-gong-by-young-royalty-free-image/1057586286
+      format: JPEG
+      filesize: 220860
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/eb55068c16001eb9b27490adcbbe9299907a9ef2bc145088ffbbc455e77e903f?m21=6.77415e-05&m22=1.00014&m23=-0.0164434&m11=1.00014&m13=-0.0100643&m12=-6.77415e-05
+      height: 683
+      width: 1024
+      score: 79.085
+      image_url: >-
+        https://img.tineye.com/result/eb55068c16001eb9b27490adcbbe9299907a9ef2bc145088ffbbc455e77e903f
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 699392
+    - domain: apimages.com
+      backlinks:
+        - url: >-
+            https://t2.ftcdn.net/jpg/01/45/11/13/400_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2019-02-06'
+          backlink: >-
+            http://www.apimages.com/metadata/MSIndex/Tibetan-singing-bowl/145111331/52
+        - url: >-
+            https://t2.ftcdn.net/jpg/01/45/11/13/400_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2018-09-08'
+          backlink: >-
+            http://www.apimages.com/metadata/MSIndex/Tibetan-singing-bowl/145111331/389
+        - url: >-
+            https://t2.ftcdn.net/jpg/01/45/11/13/400_F_145111331_6srYpMMoztNCQtaStPJNXUO2aWhejhrf.jpg
+          crawl_date: '2019-06-19'
+          backlink: >-
+            http://www.apimages.com/metadata/MSIndex/Tibetan-singing-bowl/145111331/2043
+      format: JPEG
+      filesize: 33997
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/a59d56c4f050a26a6291aeaebb2e9bc7b11e9bb07dac068e981ea20ad84e7757?m21=-0.000525827&m22=1.12421&m23=0.11425&m11=1.12421&m13=0.367942&m12=0.000525827
+      height: 267
+      width: 400
+      score: 78.431
+      image_url: >-
+        https://img.tineye.com/result/a59d56c4f050a26a6291aeaebb2e9bc7b11e9bb07dac068e981ea20ad84e7757
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 106800
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-03-05'
+          backlink: https://stock.adobe.com/145111331
+      format: JPEG
+      filesize: 63843
+      overlay: >-
+        overlay/ec37b1a2d5311c27790e6764cc39f3c8d55caa4e/d60d3c28fe14266a272b513018801ea13563558519d7b7da929b254fde24ac42?m21=-0.000368162&m22=1.00014&m23=0.149591&m11=1.00014&m13=0.505786&m12=0.000368162
+      height: 334
+      width: 500
+      score: 77.778
+      image_url: >-
+        https://img.tineye.com/result/d60d3c28fe14266a272b513018801ea13563558519d7b7da929b254fde24ac42
+      query_hash: ec37b1a2d5311c27790e6764cc39f3c8d55caa4e
+      tags:
+        - stock
+      size: 167000

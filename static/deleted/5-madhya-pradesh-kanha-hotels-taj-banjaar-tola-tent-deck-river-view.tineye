@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1611002493.19'
+  query_time: '4.85'
+  total_backlinks: 412
+  total_collection: 0
+  total_results: 202
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: nationalgeographic.com
+      backlinks:
+        - url: >-
+            http://adventureblog.nationalgeographic.com/files/2010/05/6a00e55031d3a388340133ed7a0522970b.jpeg
+          crawl_date: '2015-01-06'
+          backlink: >-
+            http://adventureblog.nationalgeographic.com/2010/05/11/voluntourism-why-helping-is-not-always-helpful/
+      format: JPEG
+      filesize: 40102
+      overlay: >-
+        overlay/cbd5ebc2cc4d21ecceffe9a7daa329a803c000d8/198f851b2dd3a32dff2e474be7ef0820c01bc0fb79c4fab2414c9d1e52199903?m21=0.00060447&m22=1.00066&m23=-0.261902&m11=1.00066&m13=-0.0168565&m12=-0.00060447
+      height: 333
+      width: 500
+      score: 74.51
+      image_url: >-
+        https://img.tineye.com/result/198f851b2dd3a32dff2e474be7ef0820c01bc0fb79c4fab2414c9d1e52199903
+      query_hash: cbd5ebc2cc4d21ecceffe9a7daa329a803c000d8
+      tags:
+        - stock
+      size: 166500

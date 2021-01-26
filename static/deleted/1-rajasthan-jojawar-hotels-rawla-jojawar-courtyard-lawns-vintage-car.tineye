@@ -1,0 +1,32 @@
+stats:
+  timestamp: '1611121045.21'
+  query_time: '12.37'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/rawla-jojwar-heritage-hotel-marwar-rajasthan-india-picture-id520817028
+          crawl_date: '2018-10-28'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/rawla-jojwar-heritage-hotel-marwar-high-res-stock-photography/520817028
+      format: JPEG
+      filesize: 489547
+      overlay: >-
+        overlay/a95afa7257da087c77fb3bd1c957e9e2a196aad0/f9f3b0621950c1f1a0f03cfdbab6051c0fde916b91aadf288723ba2c3daa5075?m21=-0.000369462&m22=1.0096&m23=-2.67377&m11=1.0096&m13=-1.07514&m12=0.000369462
+      height: 695
+      width: 1024
+      score: 47.712
+      image_url: >-
+        https://img.tineye.com/result/f9f3b0621950c1f1a0f03cfdbab6051c0fde916b91aadf288723ba2c3daa5075
+      query_hash: a95afa7257da087c77fb3bd1c957e9e2a196aad0
+      tags:
+        - stock
+      size: 711680

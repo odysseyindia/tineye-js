@@ -6,24 +6,23 @@
 
 <div class="posts-list">
 
-{{ $file := readFile "images.txt" }}
-{{ $file := split $file "\n" }}
+{{ $file := partial "findjpg.html" . }}
 
 <!--  $file := first 488 (after 2500 $file)  -->
 
 {{ range $file }}
 
-{{ $tineye := printf "%s%s%s" "static/photos" (substr . 0 -4) ".tineye"}}
+{{ $tineye := printf "%s%s" (substr . 0 -4) ".tineye"}}
 
-{{ if (fileExists $tineye ) }}
+{{ if (fileExists $tineye ) }}  
 
 {{ else }}
 
   <div class="post">
       <p>
           <div style="width:50%">
-          <img src="photos/{{ . }}" alt="{{ . }}" >
-          <h2>{{ . }}</h2>
+          <img src="{{ substr . 7 }}" alt="{{ substr . 7 }}" >
+          <h2>{{ substr . 7 }}</h2>
           </div>
       </p>
   </div>    

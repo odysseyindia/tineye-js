@@ -1,0 +1,31 @@
+stats:
+  timestamp: '1611150061.49'
+  query_time: '4.40'
+  total_backlinks: 237
+  total_collection: 0
+  total_results: 143
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-11-28'
+          backlink: >-
+            https://www.shutterstock.com/image-photo/jaipur-city-show-indian-history-nicely-788433253
+      format: jpeg
+      filesize: 435802
+      overlay: >-
+        overlay/facd88ca31a3ac1e86aa0ea34b70a6f944d2a74c/1553dbd92cbcc9fb58df80eb3890fc60515597b46b7b44432f5a124cfa6b9358?m21=-0.00100213&m22=0.820022&m23=35.0281&m11=0.820022&m13=-57.0737&m12=0.00100213
+      height: 437
+      width: 1000
+      score: 33.333
+      image_url: >-
+        https://img.tineye.com/result/1553dbd92cbcc9fb58df80eb3890fc60515597b46b7b44432f5a124cfa6b9358
+      query_hash: facd88ca31a3ac1e86aa0ea34b70a6f944d2a74c
+      tags:
+        - stock
+      size: 437000

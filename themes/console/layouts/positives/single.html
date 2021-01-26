@@ -1,0 +1,27 @@
+{{- define "main" }}
+
+<h1>List of false positives on file</h1>
+
+{{- $data := partial "findjpg.html" . }}
+{{ .Scratch.Set "counter" 0 }}
+
+{{- range $data }}
+	{{- $tineye  := printf "%s%s" (substr . 0 -4) ".tineye" -}}
+
+	{{- if (fileExists $tineye ) -}} 
+	
+		{{- $tindata := readFile $tineye | transform.Unmarshal -}}
+
+	  	{{- if (gt $tindata.stats.total_stock 0) -}} 
+
+		  	{{- with (eq $tindata.stats.positive false) -}} 
+  				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+				<div class="post">
+		    		{{ $.Scratch.Get "counter" }}. <a href="/{{ $tineye }}" target="_blank">{{ substr $tineye 14 }}</a>
+				</div>
+			{{- end }}
+		{{- end }}
+	{{- end }}
+{{- end -}}
+
+{{- end }}

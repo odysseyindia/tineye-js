@@ -1,0 +1,31 @@
+stats:
+  timestamp: '1611121035.19'
+  query_time: '12.57'
+  total_backlinks: 192
+  total_collection: 0
+  total_results: 101
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2014-10-09'
+          backlink: >-
+            http://www.gettyimages.com/detail/news-photo/in-this-handout-photograph-provided-by-taj-hotel-resorts-news-photo/73471850
+      format: JPEG
+      filesize: 229878
+      overlay: >-
+        overlay/af89f16752f31b82ee4f5af0cb2e097057827abd/28b1a9153d6356285c64bea337af1ec7e676226a6002ba08b785133b63cde36e?m21=0.000228445&m22=1.13227&m23=-28.6162&m11=1.13227&m13=-39.4687&m12=-0.000228445
+      height: 387
+      width: 594
+      score: 28.758
+      image_url: >-
+        https://img.tineye.com/result/28b1a9153d6356285c64bea337af1ec7e676226a6002ba08b785133b63cde36e
+      query_hash: af89f16752f31b82ee4f5af0cb2e097057827abd
+      tags:
+        - stock
+      size: 229878

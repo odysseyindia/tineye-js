@@ -1,0 +1,255 @@
+stats:
+  timestamp: '1611116659.90'
+  query_time: '12.05'
+  total_backlinks: 37
+  total_collection: 2
+  total_results: 21
+  total_stock: 10
+  total_filtered_results: 10
+code: 200
+messages: []
+results:
+  matches:
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/silhouette-of-cyclist-at-sunset-picture-id157999457
+          crawl_date: '2020-09-29'
+          backlink: >-
+            https://www.istockphoto.com/photo/silhouette-of-cyclist-at-sunset-gm157999457-22335659
+      format: JPEG
+      filesize: 38814
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/862911f5229cd8890ef0ca41e8527ced240b22e1392571a3be83c6cba6462a7a?m21=-0.000865251&m22=1.12562&m23=-18.2757&m11=1.12562&m13=-1.92569&m12=0.000865251
+      height: 2988
+      width: 4680
+      score: 52.941
+      image_url: >-
+        https://img.tineye.com/result/862911f5229cd8890ef0ca41e8527ced240b22e1392571a3be83c6cba6462a7a
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 13983840
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/silhouette-of-cyclist-at-sunset-picture-id157999457
+          crawl_date: '2020-09-29'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/silhouette-of-cyclist-at-sunset-royalty-free-image/157999457
+      format: JPEG
+      filesize: 38814
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/862911f5229cd8890ef0ca41e8527ced240b22e1392571a3be83c6cba6462a7a?m21=-0.000865251&m22=1.12562&m23=-18.2757&m11=1.12562&m13=-1.92569&m12=0.000865251
+      height: 2988
+      width: 4680
+      score: 52.941
+      image_url: >-
+        https://img.tineye.com/result/862911f5229cd8890ef0ca41e8527ced240b22e1392571a3be83c6cba6462a7a
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 13983840
+    - domain: thinkstockphotos.ca
+      backlinks:
+        - url: >-
+            http://cache3.asset-cache.net/xc/157999457-silhouette-of-cyclist-at-sunset-thinkstock.jpg?c=IWSAsset&d=B53F616F4B95E5534F44D36E9C1F6503F18DEDA7835466E3ECF5EA82654D834BBCC685C059D63657&k=2&p=1&v=1
+          crawl_date: '2013-07-02'
+          backlink: >-
+            http://www.thinkstockphotos.ca/image/stock-photo-silhouette-of-cyclist-at-sunset/157999457
+      format: JPEG
+      filesize: 118193
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/dc93fdb3955fdaef1b4f8a3aa4f8a56823907de679963cd4572fb58fcfdcaaf6?m21=-0.00219105&m22=1.01857&m23=-18.0162&m11=1.01857&m13=-1.54745&m12=0.00219105
+      height: 331
+      width: 518
+      score: 47.059
+      image_url: >-
+        https://img.tineye.com/result/dc93fdb3955fdaef1b4f8a3aa4f8a56823907de679963cd4572fb58fcfdcaaf6
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 171458
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-12'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/silhouette-of-cyclist-at-sunset-royalty-free-image/157999457
+      format: JPEG
+      filesize: 171458
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/2657d4eec587e085ff23b97048d5e32ca1ed278527994d6a25cab7d29882bbe9?m21=-0.00196029&m22=1.12634&m23=-18.3088&m11=1.12634&m13=-1.85505&m12=0.00196029
+      height: 331
+      width: 518
+      score: 45.098
+      image_url: >-
+        https://img.tineye.com/result/2657d4eec587e085ff23b97048d5e32ca1ed278527994d6a25cab7d29882bbe9
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 171458
+    - domain: stickstock.com
+      backlinks:
+        - url: >-
+            http://thumb10.shutterstock.com/photos/display_pic_with_logo/360472/115477741.jpg
+          crawl_date: '2013-09-19'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/115477741-silhouette_of_a_cyclist_at_
+      format: JPEG
+      filesize: 35740
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/a4fe081b03acd66b2168f47ffeec5dca4e4f24901491427f1b41233c4f72ca39?m21=0.00334734&m22=1.17049&m23=-17.9494&m11=1.17049&m13=-0.742005&m12=-0.00334734
+      height: 307
+      width: 450
+      score: 41.176
+      image_url: >-
+        https://img.tineye.com/result/a4fe081b03acd66b2168f47ffeec5dca4e4f24901491427f1b41233c4f72ca39
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 138150
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2013-08-10'
+          backlink: >-
+            http://www.shutterstock.com/pic-115477741/stock-photo-silhouette-of-a-cyclist-at-sunset.html
+      format: JPEG
+      filesize: 35740
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/a4fe081b03acd66b2168f47ffeec5dca4e4f24901491427f1b41233c4f72ca39?m21=0.00334734&m22=1.17049&m23=-17.9494&m11=1.17049&m13=-0.742005&m12=-0.00334734
+      height: 307
+      width: 450
+      score: 41.176
+      image_url: >-
+        https://img.tineye.com/result/a4fe081b03acd66b2168f47ffeec5dca4e4f24901491427f1b41233c4f72ca39
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 138150
+    - domain: thinkstockphotos.ca
+      backlinks:
+        - url: >-
+            http://cache3.asset-cache.net/xt/157999457.jpg?g=fs1|0|SKP117|99|457&s=1&v=1
+          crawl_date: '2013-03-17'
+          backlink: http://www.thinkstockphotos.ca/royalty-free/extreme-sports-pictures
+        - url: >-
+            http://cache3.asset-cache.net/xt/157999457.jpg?g=fs1|0|SKP117|99|457&s=1&v=1
+          crawl_date: '2013-03-17'
+          backlink: http://www.thinkstockphotos.ca/royalty-free/extreme-pictures
+      format: JPEG
+      filesize: 8678
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/cea7691eeb17f2f65156e360586aee26c1e55535f2ef947b74b6b41f72c9b20e?m21=0.00525104&m22=3.09517&m23=-18.4684&m11=3.09517&m13=-0.665956&m12=-0.00525104
+      height: 109
+      width: 170
+      score: 40.523
+      image_url: >-
+        https://img.tineye.com/result/cea7691eeb17f2f65156e360586aee26c1e55535f2ef947b74b6b41f72c9b20e
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 18530
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2013-12-20'
+          backlink: >-
+            http://www.shutterstock.com/pic-148214762/stock-photo-silhouette-of-a-cyclist-at-sunset-with-reflection-on-water-copy-space-for-inscription.html
+      format: jpeg
+      filesize: 52498
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/720718dd7db8df94dc66f9448dbfcdadd078b11d4ca12ab3f1e40cb61bb6f679?m21=-0.00708827&m22=1.67089&m23=-17.6497&m11=1.67089&m13=-1.43116&m12=0.00708827
+      height: 427
+      width: 450
+      score: 34.641
+      image_url: >-
+        https://img.tineye.com/result/720718dd7db8df94dc66f9448dbfcdadd078b11d4ca12ab3f1e40cb61bb6f679
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 192150
+    - domain: stickstock.com
+      backlinks:
+        - url: >-
+            http://thumb9.shutterstock.com/photos/thumb_small/360472/148214762.jpg
+          crawl_date: '2013-10-27'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/79668865-silhouette_of_the_girl_on_a_
+      format: JPEG
+      filesize: 4090
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/177d4a73df59b315801faa52e47548cbbd3834b2505a10bad467f886f373195d?m21=0.0143295&m22=5.29021&m23=-17.601&m11=5.29021&m13=-0.514087&m12=-0.0143295
+      height: 103
+      width: 100
+      score: 16.34
+      image_url: >-
+        https://img.tineye.com/result/177d4a73df59b315801faa52e47548cbbd3834b2505a10bad467f886f373195d
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 10300
+    - domain: stickstock.com
+      backlinks:
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-08-06'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/85844611-illustration_of_kids_riding_a_
+        - url: >-
+            http://thumb7.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2015-03-09'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/130617089-illustration_of_a_man_riding_a_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-06-20'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/108290732-cycling_biking_helmet_with_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-08-23'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/69042472-rubber_stamp_chop_of_thai_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-06-22'
+          backlink: http://www.stickstock.com/stock-photos/k/ride
+        - url: >-
+            http://thumb7.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2015-03-07'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/81631225-young_man_riding_a_bike_over_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-06-22'
+          backlink: http://www.stickstock.com/stock-photos/k/riding
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-07-01'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/107803319-extreme_surfers_riding_some_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-08-08'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/110548364-riding_a_bike_in_style_
+        - url: >-
+            http://thumb10.shutterstock.com/photos/thumb_small/360472/115477741.jpg
+          crawl_date: '2013-08-15'
+          backlink: >-
+            http://www.stickstock.com/stock-photos/s/106853522-place_of_ground_hill_for_
+      format: JPEG
+      filesize: 2909
+      overlay: >-
+        overlay/731f236b62d33929ba89eab4b245122bcd3a8c51/a221d070ef9ddf972f79a8e738441d3e5264c3dd476ddd07f6ca813a018946a6?m21=0.0611659&m22=5.28798&m23=-20.5901&m11=5.28798&m13=0.56356&m12=-0.0611659
+      height: 77
+      width: 100
+      score: 16.34
+      image_url: >-
+        https://img.tineye.com/result/a221d070ef9ddf972f79a8e738441d3e5264c3dd476ddd07f6ca813a018946a6
+      query_hash: 731f236b62d33929ba89eab4b245122bcd3a8c51
+      tags:
+        - stock
+      size: 7700

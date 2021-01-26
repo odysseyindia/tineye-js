@@ -1,0 +1,39 @@
+stats:
+  timestamp: '1611147552.91'
+  query_time: '4.99'
+  total_backlinks: 210
+  total_collection: 0
+  total_results: 143
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: nationalgeographic.com
+      backlinks:
+        - url: >-
+            http://intelligenttravel.nationalgeographic.com/wp-content/blogs.dir/10/files/2011/11/raas-590x393.jpg
+          crawl_date: '2013-10-17'
+          backlink: http://intelligenttravel.nationalgeographic.com/tag/hotels/
+        - url: >-
+            http://intelligenttravel.nationalgeographic.com/wp-content/blogs.dir/10/files/2011/11/raas-590x393.jpg
+          crawl_date: '2013-10-12'
+          backlink: http://intelligenttravel.nationalgeographic.com/tag/india/
+        - url: >-
+            http://intelligenttravel.nationalgeographic.com/files/2011/11/raas-590x393.jpg
+          crawl_date: '2015-10-28'
+          backlink: http://intelligenttravel.nationalgeographic.com/2011/11/page/3/
+      format: JPEG
+      filesize: 66366
+      overlay: >-
+        overlay/a6870647d06a5b4f290e90c0e9d87345fda1895d/3e474b016336d4815d6686cd3e769e3127039d69767de310850beebf352443c8?m21=0.000287701&m22=0.763373&m23=-0.0587532&m11=0.763373&m13=0.0591823&m12=-0.000287701
+      height: 393
+      width: 590
+      score: 83.66
+      image_url: >-
+        https://img.tineye.com/result/3e474b016336d4815d6686cd3e769e3127039d69767de310850beebf352443c8
+      query_hash: a6870647d06a5b4f290e90c0e9d87345fda1895d
+      tags:
+        - stock
+      size: 231870

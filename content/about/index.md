@@ -6,7 +6,7 @@ title = "About"
 <h1>About this TinEye app</h1>
 
 <p>
-TinEye is a reverse image search and compliance program <a href="https://tineye.com/">(more)</a> based on the Hugo web page generator and Javascript. 
+TinEye is a reverse image search and compliance program <a href="https://tineye.com/">(more)</a> based on the <a href="https://gohugo.io/">Hugo web page generator</a> and Javascript. 
 </p>
 
 ## Installation

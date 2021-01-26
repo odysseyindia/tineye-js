@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<h1>List of images on file</h1>
+
+{{ $filepath := printf "static/%s" "photos" }}
+
+{{ range readDir $filepath }}
+	{{ .Name }}<br>
+
+	{{ if (findRE ".jpg$" .Name) }}
+	<div class="post">
+    	<a href="{{ $filepath}}/{{ .Name }}" target="_blank">{{ .Name }}</a>
+	</div>
+  	{{ else if (findRE ".tineye$" .Name) }}
+		
+  	{{ else }}
+  		{{ $filepath2 := printf "%s/%s" $filepath .Name }}
+  		{{ range readDir $filepath2 }}
+			{{ if (findRE ".jpg$" .Name) }}
+			<div class="post">
+		    	&nbsp;&nbsp;&nbsp;&nbsp;
+		    	<a href="{{ printf "/%s/%s" $filepath2 .Name }}" target="_blank">
+		    		{{  .Name }}
+		    	</a>
+			</div>
+		  	{{ else if (findRE ".tineye$" .Name) }}
+				
+			{{ else }}
+				&nbsp;&nbsp;
+				{{ .Name }}<br>
+				{{ $filepath3 := printf "%s/%s" $filepath2 .Name }}
+		  		{{ range readDir $filepath3 }}
+					{{ if (findRE ".jpg$" .Name) }}
+					<div class="post">
+				    	&nbsp;&nbsp;&nbsp;&nbsp;
+				    	<a href="{{ printf "/%s/%s" $filepath3 .Name }}" target="_blank">
+				    		{{  .Name }}
+				    	</a>
+					</div>
+				  	{{ else if (findRE ".tineye$" .Name) }}
+						
+					{{ else }}
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						{{ .Name }}<br>
+						{{ $filepath4 := printf "%s/%s" $filepath3 .Name }}
+				  		{{ range readDir $filepath4 }}
+							{{ if (findRE ".jpg$" .Name) }}
+							<div class="post">
+						    	&nbsp;&nbsp;&nbsp;&nbsp;
+						    	<a href="{{ printf "/%s/%s" $filepath4 .Name }}" target="_blank">
+						    		{{  .Name }}
+						    	</a>
+							</div>
+						  	{{ else if (findRE ".tineye$" .Name) }}
+								
+							{{ else }}
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								{{ .Name }}<br>
+								{{ $filepath5 := printf "%s/%s" $filepath4 .Name }}
+						  		{{ range readDir $filepath5 }}
+									{{ if (findRE ".jpg$" .Name) }}
+									<div class="post">
+								    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								    	<a href="{{ printf "/%s/%s" $filepath5 .Name}}" target="_blank">
+								    		{{  .Name }}
+								    	</a>
+									</div>
+								  	{{ else if (findRE ".tineye$" .Name) }}
+										
+									{{ else }}
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										{{ .Name }}<br>
+								  	{{ end }}
+								{{ end }}
+						  	{{ end }}
+						{{ end }}
+				  	{{ end }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+  	{{ end }}
+{{ end }}
+
+{{ end }}

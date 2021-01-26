@@ -1,0 +1,53 @@
+stats:
+  timestamp: '1610993330.95'
+  query_time: '0.78'
+  total_backlinks: 4
+  total_collection: 0
+  total_results: 3
+  total_stock: 2
+  total_filtered_results: 2
+code: 200
+messages: []
+results:
+  matches:
+    - domain: bciusa.com
+      backlinks:
+        - url: http://www.bciusa.com/dbImages/?id=5280630
+          crawl_date: '2013-06-26'
+          backlink: >-
+            http://www.bciusa.com/imageset_frame.jsp?cid=17&iset_id=137181&isid=4
+        - url: http://www.bciusa.com/dbImages/?id=5280630
+          crawl_date: '2013-06-27'
+          backlink: http://www.bciusa.com/imageset_frame.jsp?cid=17&iset_id=137181&isid
+      format: JPEG
+      filesize: 4726
+      overlay: >-
+        overlay/a8ba9e81a97d55dd461402a48417edadc85b6c82/6a0f8ffaab7fa77ebb6cb5b06b5c0e66413e61a99177950f93cff55e5d727476?m21=-0.0255389&m22=3.16111&m23=-54.7867&m11=3.16111&m13=-78.7408&m12=0.0255389
+      height: 112
+      width: 170
+      score: 38.562
+      image_url: >-
+        https://img.tineye.com/result/6a0f8ffaab7fa77ebb6cb5b06b5c0e66413e61a99177950f93cff55e5d727476
+      query_hash: a8ba9e81a97d55dd461402a48417edadc85b6c82
+      tags:
+        - stock
+      size: 19040
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2017-06-22'
+          backlink: >-
+            http://www.shutterstock.com/pic-631859645/stock-photo-indian-wild-ass-ghudkhur-wallpaper.html
+      format: jpeg
+      filesize: 23655
+      overlay: >-
+        overlay/a8ba9e81a97d55dd461402a48417edadc85b6c82/5eca4feedc627c037db89cdb00e20919c8af0e09e7a99dd4c08836b8a80da909?m21=-0.0144573&m22=1.1955&m23=17.1465&m11=1.1955&m13=-79.4644&m12=0.0144573
+      height: 198
+      width: 450
+      score: 31.373
+      image_url: >-
+        https://img.tineye.com/result/5eca4feedc627c037db89cdb00e20919c8af0e09e7a99dd4c08836b8a80da909
+      query_hash: a8ba9e81a97d55dd461402a48417edadc85b6c82
+      tags:
+        - stock
+      size: 89100

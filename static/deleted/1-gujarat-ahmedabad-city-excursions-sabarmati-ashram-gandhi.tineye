@@ -1,0 +1,131 @@
+stats:
+  timestamp: '1610992545.34'
+  query_time: '5.38'
+  total_backlinks: 1982
+  total_collection: 4
+  total_results: 304
+  total_stock: 6
+  total_filtered_results: 6
+code: 200
+messages: []
+results:
+  matches:
+    - domain: mauritius-images.com
+      backlinks:
+        - url: >-
+            https://img.mauritius-images.com/dsf/preview_watermarked/ME-PI-12281015/save_as_name/mauritius%20images%20-%2012942505%20-%20Mohandas%20Karamchand%20Gandhi%20%282%20October%201869%20-%2030%20Jan1948%29.%20Preeminent%20leader%20of%20the%20Indian%20independence%20movement%20in%20British-ruled%20India.%20Employing%20nonviolent%20civil%20disobedience%2C%20Gandhi%20led%20India%20to%20independence%20and%20inspired%20movements%20for%20civil%20rights%20and%20freedom%20across%20the%20world..jpg
+          crawl_date: '2020-10-21'
+          backlink: >-
+            https://www.mauritius-images.com/en/asset/ME-PI-12281015_mauritius_images_bildnummer_12942505_mohandas-karamchand-gandhi-%282-october-1869---30-jan1948%29-preeminent-leader-of-the-indian-independence-movement-in-british-ruled-india-employing-nonviolent-civil-disobedience-gandhi-led-india-to-independence-and-inspired-movements-for-civil-rights-and-freedom-across-the-world
+      format: JPEG
+      filesize: 34431
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/5ca0fe1cf045856ab412f95f757fa82027f10c3c6e7161cfd92932b58a57089c?m21=0.00107469&m22=0.75753&m23=44.1268&m11=0.75753&m13=82.875&m12=-0.00107469
+      height: 600
+      width: 574
+      score: 26.797
+      image_url: >-
+        https://img.tineye.com/result/5ca0fe1cf045856ab412f95f757fa82027f10c3c6e7161cfd92932b58a57089c
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 344400
+    - domain: mauritius-images.com
+      backlinks:
+        - url: >-
+            https://img.mauritius-images.com/dsf/preview_watermarked/ME-PI-9120431/save_as_name/mauritius%20images%20-%2009641573.jpg
+          crawl_date: '2020-04-24'
+          backlink: >-
+            https://www.mauritius-images.com/en/asset/ME-PI-9120431_mauritius_images_bildnummer_09641573_mohandas-karamchand-gandhi-%282-october-1869---30-january-1948%29-preeminent-leader-of-the-indian-independence-movement-in-british-ruled-india-employing-nonviolent-civil-disobedience-gandhi-led-india-to-independence-and-inspired-movements-for-civil-rights-and-freedom-across-the-world
+      format: JPEG
+      filesize: 34384
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/05426ca654940bf70ab09b87a2dabe48084456ed97a2c4755dcdb6f1c121ccca?m21=-0.000864881&m22=0.757026&m23=44.3152&m11=0.757026&m13=82.682&m12=0.000864881
+      height: 600
+      width: 574
+      score: 26.144
+      image_url: >-
+        https://img.tineye.com/result/05426ca654940bf70ab09b87a2dabe48084456ed97a2c4755dcdb6f1c121ccca
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 344400
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.gettyimages.com/photos/mohandas-karamchand-gandhi-preeminent-leader-of-the-indian-movement-picture-id973199176
+          crawl_date: '2019-02-06'
+          backlink: >-
+            https://www.gettyimages.com/detail/news-photo/mohandas-karamchand-gandhi-preeminent-leader-of-the-indian-news-photo/973199176
+      format: JPEG
+      filesize: 243726
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/8f8077e541a133856a6f46cc415ca7d15c431fb447fdf83dc607791f79ff322d?m21=3.64986e-05&m22=0.758408&m23=44.8794&m11=0.758408&m13=82.6007&m12=-3.64986e-05
+      height: 1024
+      width: 980
+      score: 23.529
+      image_url: >-
+        https://img.tineye.com/result/8f8077e541a133856a6f46cc415ca7d15c431fb447fdf83dc607791f79ff322d
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 1003520
+    - domain: alamy.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-01-05'
+          backlink: >-
+            http://www.alamy.com/image-details-popup.asp?imageid={CA6C5A03-C429-4D65-92AA-FC68B5094066}
+      format: JPEG
+      filesize: 215460
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/e9ea440ea1ffe7ba225ee09db1c9f66b0ca4a17323ecf35398dbab329b926a63?m21=-0.0917662&m22=0.907729&m23=54.5587&m11=0.907729&m13=44.0236&m12=0.0917662
+      height: 540
+      width: 399
+      score: 20.261
+      image_url: >-
+        https://img.tineye.com/result/e9ea440ea1ffe7ba225ee09db1c9f66b0ca4a17323ecf35398dbab329b926a63
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 215460
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/A2FX28/mkg33098-mahatma-gandhi-during-a-prayer-meeting-at-mumbai-bombay-maharashtra-A2FX28.jpg
+          crawl_date: '2019-04-28'
+          backlink: >-
+            https://www.alamy.com/mkg33098-mahatma-gandhi-during-a-prayer-meeting-at-mumbai-bombay-maharashtra-image3431975.html
+      format: JPEG
+      filesize: 193928
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/788c80a5bf49549550cc2cdb55de6b36c9c3d367379baceb34a6d3141308d430?m21=-0.0926949&m22=0.907263&m23=54.8054&m11=0.907263&m13=43.8428&m12=0.0926949
+      height: 1390
+      width: 996
+      score: 17.647
+      image_url: >-
+        https://img.tineye.com/result/788c80a5bf49549550cc2cdb55de6b36c9c3d367379baceb34a6d3141308d430
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 1384440
+    - domain: agefotostock.com
+      backlinks:
+        - url: >-
+            https://t1.thpservices.com/previewimage/gallil/d6d06961f654ad3cb54264b2cae446b1/dpa-mpd-121086.jpg
+          crawl_date: '2020-10-27'
+          backlink: >-
+            https://www.agefotostock.com/age/en/Stock-Images/Rights-Managed/DPA-MPD-121086
+      format: JPEG
+      filesize: 32704
+      overlay: >-
+        overlay/b208e77b17398f21e17b4b2e1a51022be2c16981/a3cbec8664b160756c29c8d43d4928fb54253caec0a62e5c122ab1cc7ea68009?m21=0.012069&m22=2.07192&m23=-96.8514&m11=2.07192&m13=-9.30158&m12=-0.012069
+      height: 467
+      width: 640
+      score: 11.765
+      image_url: >-
+        https://img.tineye.com/result/a3cbec8664b160756c29c8d43d4928fb54253caec0a62e5c122ab1cc7ea68009
+      query_hash: b208e77b17398f21e17b4b2e1a51022be2c16981
+      tags:
+        - stock
+      size: 298880

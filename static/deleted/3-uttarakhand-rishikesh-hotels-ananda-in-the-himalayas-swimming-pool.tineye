@@ -1,0 +1,50 @@
+stats:
+  timestamp: '1611172117.27'
+  query_time: '6.19'
+  total_backlinks: 102
+  total_collection: 5
+  total_results: 80
+  total_stock: 2
+  total_filtered_results: 2
+code: 200
+messages: []
+results:
+  matches:
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2012-05-21'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/woman-in-pool-high-res-stock-photography/98745164
+      format: JPEG
+      filesize: 212752
+      overlay: >-
+        overlay/162df99ae3b1e9e689566331c994052f9d3f7a00/f39047a6a26a6048e268763ec2ba73973b7b8c07a9318781d32d0d88a4db0533?m21=-0.000102993&m22=0.943666&m23=-16.1199&m11=0.943666&m13=-0.297879&m12=0.000102993
+      height: 337
+      width: 506
+      score: 59.477
+      image_url: >-
+        https://img.tineye.com/result/f39047a6a26a6048e268763ec2ba73973b7b8c07a9318781d32d0d88a4db0533
+      query_hash: 162df99ae3b1e9e689566331c994052f9d3f7a00
+      tags:
+        - stock
+      size: 170522
+    - domain: gettyimages.com
+      backlinks:
+        - url: ''
+          crawl_date: '2015-02-20'
+          backlink: >-
+            http://www.gettyimages.com/detail/photo/woman-in-pool-high-res-stock-photography/182186634
+      format: JPEG
+      filesize: 171366
+      overlay: >-
+        overlay/162df99ae3b1e9e689566331c994052f9d3f7a00/a57dd5728f6374984dd8aea1e6905a841e59566636eebb066311cfaa56274f56?m21=-0.000273624&m22=1.05996&m23=-16.0334&m11=1.05996&m13=-0.336177&m12=0.000273624
+      height: 338
+      width: 507
+      score: 53.595
+      image_url: >-
+        https://img.tineye.com/result/a57dd5728f6374984dd8aea1e6905a841e59566636eebb066311cfaa56274f56
+      query_hash: 162df99ae3b1e9e689566331c994052f9d3f7a00
+      tags:
+        - stock
+      size: 171366

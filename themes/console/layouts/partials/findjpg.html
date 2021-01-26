@@ -1,0 +1,44 @@
+{{ $filepath := printf "static/%s" "photos" }}
+{{ $data := slice }}
+
+{{ range readDir $filepath }}
+	
+	{{ if (findRE ".jpg$" .Name) }}
+	  {{ $data = $data | append (printf "%s/%s" $filepath .Name) }}
+  	{{ else if (findRE ".tineye$" .Name) }}
+  	{{ else }}
+  		{{ $filepath2 := printf "%s/%s" $filepath .Name }}
+  		{{ range readDir $filepath2 }}
+			{{ if (findRE ".jpg$" .Name) }}
+				{{ $data = $data | append (printf "%s/%s" $filepath2 .Name) }}
+		  	{{ else if (findRE ".tineye$" .Name) }}
+			{{ else }}
+				{{ $filepath3 := printf "%s/%s" $filepath2 .Name }}
+		  		{{ range readDir $filepath3 }}
+					{{ if (findRE ".jpg$" .Name) }}
+						{{ $data = $data | append (printf "%s/%s" $filepath3 .Name) }}
+				  	{{ else if (findRE ".tineye$" .Name) }}
+					{{ else }}
+						{{ $filepath4 := printf "%s/%s" $filepath3 .Name }}
+				  		{{ range readDir $filepath4 }}
+							{{ if (findRE ".jpg$" .Name) }}
+								{{ $data = $data | append (printf "%s/%s" $filepath4 .Name) }}
+						  	{{ else if (findRE ".tineye$" .Name) }}
+							{{ else }}	
+								{{ $filepath5 := printf "%s/%s" $filepath4 .Name }}
+						  		{{ range readDir $filepath5 }}
+									{{ if (findRE ".jpg$" .Name) }}
+										{{ $data = $data | append (printf "%s/%s" $filepath5 .Name) }}
+								  	{{ else if (findRE ".tineye$" .Name) }}
+								  	{{ end }}
+								{{ end }}
+						  	{{ end }}
+						{{ end }}
+				  	{{ end }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+  	{{ end }}
+{{ end }}
+
+{{ return $data }}

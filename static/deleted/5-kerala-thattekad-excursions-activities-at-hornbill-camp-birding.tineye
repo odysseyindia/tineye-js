@@ -1,0 +1,31 @@
+stats:
+  timestamp: '1611063140.95'
+  query_time: '4.48'
+  total_backlinks: 1
+  total_collection: 0
+  total_results: 1
+  total_stock: 1
+  total_filtered_results: 1
+code: 200
+messages: []
+results:
+  matches:
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2020-04-20'
+          backlink: >-
+            http://www.shutterstock.com/pic-1703383492/stock-photo-yellow-borrow-bullbul-sitting-on-branch-of-tree.html
+      format: jpeg
+      filesize: 30576
+      overlay: >-
+        overlay/56b476c90830efb1d1d2dfb49e017f9e707a4f6b/71d9ad660590e846338f656183b6b47a2dac504e939509cae1ea0a93f7544003?m21=0.00294653&m22=1.76351&m23=-104.47&m11=1.76351&m13=-170.335&m12=-0.00294653
+      height: 322
+      width: 450
+      score: 22.222
+      image_url: >-
+        https://img.tineye.com/result/71d9ad660590e846338f656183b6b47a2dac504e939509cae1ea0a93f7544003
+      query_hash: 56b476c90830efb1d1d2dfb49e017f9e707a4f6b
+      tags:
+        - stock
+      size: 144900

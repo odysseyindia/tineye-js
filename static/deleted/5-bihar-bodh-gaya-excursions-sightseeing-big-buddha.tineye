@@ -1,0 +1,205 @@
+stats:
+  timestamp: '1610991754.53'
+  query_time: '0.93'
+  total_backlinks: 135
+  total_collection: 1
+  total_results: 59
+  total_stock: 18
+  total_filtered_results: 18
+code: 200
+messages: []
+results:
+  matches:
+    - domain: stock.adobe.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-04-27'
+          backlink: https://stock.adobe.com/211897286
+      format: jpeg
+      filesize: 61416
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/b1ff033f5330bea04d040950b36a23c6f96e4b04bf22e44652c6ee414a19cad9?m21=0.00182207&m22=0.932387&m23=-9.18506&m11=0.932387&m13=-8.1828&m12=-0.00182207
+      height: 351
+      width: 500
+      score: 24.183
+      image_url: >-
+        https://img.tineye.com/result/b1ff033f5330bea04d040950b36a23c6f96e4b04bf22e44652c6ee414a19cad9
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 175500
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static1.bigstockphoto.com/8/4/2/large2/248058973.jpg
+          crawl_date: '2018-11-28'
+          backlink: >-
+            https://www.bigstockphoto.com/image-248058973/stock-photo-giant-buddha-statue-in-gaya%2C-india
+      format: JPEG
+      filesize: 35272
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/cdadb4492e07f8694eef43f10d5829ec9721b89ea49e027284030546c3386516?m21=0.00170224&m22=0.990971&m23=-9.72489&m11=0.990971&m13=-8.38678&m12=-0.00170224
+      height: 335
+      width: 450
+      score: 23.529
+      image_url: >-
+        https://img.tineye.com/result/cdadb4492e07f8694eef43f10d5829ec9721b89ea49e027284030546c3386516
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 150750
+    - domain: 123rf.com
+      backlinks:
+        - url: >-
+            https://us.123rf.com/450wm/langdu8x/langdu8x1807/langdu8x180700572/104828309-ancient-giant-buddha-statue-in-bodhgaya-india-bodhgaya-is-the-most-revered-of-all-buddhist-sacred-si.jpg?ver=6
+          crawl_date: '2019-02-20'
+          backlink: >-
+            https://www.123rf.com/photo_104828309_ancient-giant-buddha-statue-in-bodhgaya-india-bodhgaya-is-the-most-revered-of-all-buddhist-sacred-si.html
+      format: JPEG
+      filesize: 19035
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/bc42cea5c9e83455ed4d6a4831f97c5be04e9b9cbc4ed60909c1fcb4029d5da1?m21=0.000848993&m22=0.930784&m23=-8.55148&m11=0.930784&m13=-8.07204&m12=-0.000848993
+      height: 315
+      width: 450
+      score: 23.529
+      image_url: >-
+        https://img.tineye.com/result/bc42cea5c9e83455ed4d6a4831f97c5be04e9b9cbc4ed60909c1fcb4029d5da1
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 141750
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2018-09-05'
+          backlink: >-
+            http://www.shutterstock.com/pic-1126775843/stock-photo-ancient-giant-buddha-statue-in-bodhgaya-india-bodhgaya-is-the-most-revered-of-all-buddhist-sacred.html
+      format: jpeg
+      filesize: 158530
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/204d5dea7cae4b966bc0bd1c8ab0cc7d367ae079b87d745bde83e2faa1eb1e5c?m21=-0.00232149&m22=0.993689&m23=-9.36226&m11=0.993689&m13=-9.84718&m12=0.00232149
+      height: 335
+      width: 450
+      score: 22.222
+      image_url: >-
+        https://img.tineye.com/result/204d5dea7cae4b966bc0bd1c8ab0cc7d367ae079b87d745bde83e2faa1eb1e5c
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 150750
+    - domain: bigstockphoto.com
+      backlinks:
+        - url: https://static1.bigstockphoto.com/8/4/2/large1500/248058973.jpg
+          crawl_date: '2018-11-28'
+          backlink: >-
+            https://www.bigstockphoto.com/image-248058973/stock-photo-giant-buddha-statue-in-gaya%2C-india
+      format: JPEG
+      filesize: 177631
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/54d8ef80be949bdc0d33eae66c49af4373a688d1dc9f6bc45a738a692d4897d7?m21=-0.0121494&m22=1.02662&m23=-4.70003&m11=1.02662&m13=-7.2317&m12=0.0121494
+      height: 1171
+      width: 1500
+      score: 22.222
+      image_url: >-
+        https://img.tineye.com/result/54d8ef80be949bdc0d33eae66c49af4373a688d1dc9f6bc45a738a692d4897d7
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 1756500
+    - domain: alamy.com
+      backlinks:
+        - url: >-
+            https://c8.alamy.com/comp/P76XK4/ancient-giant-buddha-statue-in-bodhgaya-india-bodhgaya-is-the-most-revered-of-all-buddhist-sacred-sites-P76XK4.jpg
+          crawl_date: '2019-05-01'
+          backlink: >-
+            https://www.alamy.com/ancient-giant-buddha-statue-in-bodhgaya-india-bodhgaya-is-the-most-revered-of-all-buddhist-sacred-sites-image210979640.html
+      format: JPEG
+      filesize: 122829
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/941a9cec07b93ddf058251a6df3132bd1374ddc2625e973c380a46e46f4fe176?m21=-0.00925913&m22=1.02242&m23=-7.35308&m11=1.02242&m13=-8.51513&m12=0.00925913
+      height: 1000
+      width: 1300
+      score: 18.954
+      image_url: >-
+        https://img.tineye.com/result/941a9cec07b93ddf058251a6df3132bd1374ddc2625e973c380a46e46f4fe176
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 1300000
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-02-28'
+          backlink: >-
+            http://www.shutterstock.com/pic-1300479931/stock-photo-this-feet-high-statue-of-buddha.html
+      format: jpeg
+      filesize: 133803
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/fb0531424f2eb51d6fecf92d2b6ea32a754be34a1f99f8799fad7e3772a4c755?m21=-0.0155809&m22=0.940618&m23=1.68189&m11=0.940618&m13=35.0368&m12=0.0155809
+      height: 416
+      width: 450
+      score: 17.647
+      image_url: >-
+        https://img.tineye.com/result/fb0531424f2eb51d6fecf92d2b6ea32a754be34a1f99f8799fad7e3772a4c755
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 187200
+    - domain: shutterstock.com
+      backlinks:
+        - url: ''
+          crawl_date: '2019-12-02'
+          backlink: >-
+            http://www.shutterstock.com/pic-1570142671/stock-photo-bodh-gaya-bihar-seat-of-enlightenment-great-buddha-statue-mahabodhi-temple-complex.html
+      format: jpeg
+      filesize: 26360
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/db3755e1ecae70a6afecb0fd20619eb37312025b2876258775f294fe2a44209d?m21=-0.0148817&m22=1.17254&m23=-40.8895&m11=1.17254&m13=-56.8622&m12=0.0148817
+      height: 320
+      width: 450
+      score: 16.993
+      image_url: >-
+        https://img.tineye.com/result/db3755e1ecae70a6afecb0fd20619eb37312025b2876258775f294fe2a44209d
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 144000
+    - domain: istockphoto.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/lord-buddha-statue-picture-id1144108396?k=6&m=1144108396&s=170667a&w=0&h=x-QmaQQra0DSapuwaLIZM4DEvc1PZKnVEFVSSEZzbjc=
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.istockphoto.com/photo/lord-buddha-statue-gm1144108396-307466832
+      format: JPEG
+      filesize: 26516
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/a2ecc4adacb1a7c5ce0cc2270551de90aa9f01a0251c6e21446a9dd0049c5547?m21=-0.0117412&m22=0.718361&m23=-43.5588&m11=0.718361&m13=80.9215&m12=0.0117412
+      height: 4032
+      width: 3024
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/a2ecc4adacb1a7c5ce0cc2270551de90aa9f01a0251c6e21446a9dd0049c5547
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 12192768
+    - domain: gettyimages.com
+      backlinks:
+        - url: >-
+            https://media.istockphoto.com/photos/lord-buddha-statue-picture-id1144108396?k=6&m=1144108396&s=170667a&w=0&h=x-QmaQQra0DSapuwaLIZM4DEvc1PZKnVEFVSSEZzbjc=
+          crawl_date: '2020-12-18'
+          backlink: >-
+            https://www.gettyimages.com/detail/photo/lord-buddha-statue-royalty-free-image/1144108396
+      format: JPEG
+      filesize: 26516
+      overlay: >-
+        overlay/e1b91226002cb3fca34734eb81bef0939037e974/a2ecc4adacb1a7c5ce0cc2270551de90aa9f01a0251c6e21446a9dd0049c5547?m21=-0.0117412&m22=0.718361&m23=-43.5588&m11=0.718361&m13=80.9215&m12=0.0117412
+      height: 4032
+      width: 3024
+      score: 15.686
+      image_url: >-
+        https://img.tineye.com/result/a2ecc4adacb1a7c5ce0cc2270551de90aa9f01a0251c6e21446a9dd0049c5547
+      query_hash: e1b91226002cb3fca34734eb81bef0939037e974
+      tags:
+        - stock
+      size: 12192768
